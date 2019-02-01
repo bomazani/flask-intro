@@ -1,0 +1,8 @@
+<!doctype html>
+<title>Random Recipe</title>
+{% if recipe %}
+  <h1>Random recipe: {{ recipe }}!</h1>
+{% else %}
+  <h1>Hello, World!</h1>
+  <h2>We don't have a random recipe for you.</h2>
+{% endif %}
